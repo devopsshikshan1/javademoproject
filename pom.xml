@@ -18,4 +18,22 @@
   <build>
     <finalName>javademoproject</finalName>
   </build>
+  <distributionManagement>
+  <settings>
+  <mirrors>
+    <mirror>
+      <id>nexus</id>
+      <url>http://13.234.117.255:8081/repository/git_maven_sonar_nexus_tomcat_job01//</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+  </servers>
+</settings>
+ <distributionManagement>
 </project>
