@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <dependency>
+    <groupId>sp.sd</groupId>
+    <artifactId>nexus-artifact-uploader</artifactId>
+    <version>2.14</version>
+    <repository>
+	      <id>cisco</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://13.234.117.255:8081/repository/git_maven_sonar_nexus_tomcat_job01/</url>
+	    </repository>
+</dependency>
+    </distributionManagement>
   <build>
     <finalName>javademoproject</finalName>
   </build>
