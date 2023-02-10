@@ -14,7 +14,6 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
- <distributionManagement>
   <dependency>
     <groupId>sp.sd</groupId>
     <artifactId>nexus-artifact-uploader</artifactId>
@@ -24,8 +23,7 @@
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://13.234.117.255:8081/repository/git_maven_sonar_nexus_tomcat_job01/</url>
 	    </repository>
-</dependency>
-    </distributionManagement>	  
+</dependency>	  
   </dependencies>
  
   <build>
